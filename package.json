@@ -1,6 +1,6 @@
 {
   "name": "normalize-css-color",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Normalize a subset of CSS color values into integers",
   "main": "index.js",
   "scripts": {
