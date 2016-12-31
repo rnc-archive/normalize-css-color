@@ -133,7 +133,7 @@ var NUMBER = '[-+]?\\d*\\.?\\d+';
 var PERCENTAGE = NUMBER + '%';
 
 function toArray(arrayLike) {
-  return Array.prototype.slice(arrayLike, 0);
+  return Array.prototype.slice.call(arrayLike, 0);
 }
 
 function call() {
