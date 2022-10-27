@@ -129,7 +129,7 @@ function hslToRgb(h, s, l) {
 }
 
 // var INTEGER = '[-+]?\\d+';
-var NUMBER = '[-+]?\\d*\\.?\\d+';
+var NUMBER = '[-+]?\\d*(?:\\.\\d*)?';
 var PERCENTAGE = NUMBER + '%';
 
 function toArray(arrayLike) {
