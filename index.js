@@ -137,7 +137,7 @@ function toArray(arrayLike) {
 }
 
 function call() {
-  return '\\(\\s*(' + toArray(arguments).join(')\\s*,\\s*(') + ')\\s*\\)';
+  return '\\(\\s*(' + toArray(arguments).join(')\\s*,?\\s*(') + ')\\s*\\)';
 }
 
 var matchers = {
